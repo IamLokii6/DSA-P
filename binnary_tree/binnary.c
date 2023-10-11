@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "binary_tree.h"
+#include "binnary.h"
 
 void preorderTraversal(struct node *root)
 {

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "infix_to_postfix.h"
+#include "infixtopostfix.h"
 #include "../stack/stack.h"
 
 // return postfix expression

@@ -1,5 +1,5 @@
-#ifndef POSTFIX_EVALUATION
-#define POSTFIX_EVALUATION
+#ifndef POSTFIX
+#define POSTFIX
 
 int evaluatePostfix(char *exp);
 
