@@ -9,10 +9,10 @@ struct stack
 };
 typedef struct stack stack;
 
-stack *createStack();
+stack* createStack();
 int isFull(stack *stack);
 int isEmpty(stack *stack);
-void push(stack *stack, int data);
+void push(stack *stack,int data);
 int pop(stack *stack);
 int peek(stack *stack);
 void printStack(stack *stack);
