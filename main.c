@@ -4,7 +4,7 @@
 #include "./stack/stack.h"
 #include "./infix_to_postfix/infixtopostfix.h"
 #include "./postfix_eval/postfix.h"
-#include "./bracket_matching/bracket.h"
+#include "./bracket_matching.c/bracket.h"
 
 int main()
 {
