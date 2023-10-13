@@ -1,11 +1,14 @@
-#ifndef BINARY_TREE
-#define BINARY_TREE
+#ifndef BINNARY_H
+#define BINNARY_H
 
-struct node
-{
+struct TreeNode {
     int data;
-    struct node *left;
-    struct node *right;
+   struct TreeNode* left;
+   struct TreeNode* right;
 };
+typedef struct TreeNode TreeNode;
 
+TreeNode* createNode(int data) ;
+TreeNode* insert( TreeNode* root, int data);
+TreeNode* delete(TreeNode* root, int data);
 #endif

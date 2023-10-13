@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// create stack
 struct stack *createStack()
 {
     stack *s = (stack *)malloc(sizeof(stack));
@@ -27,7 +26,6 @@ int isEmpty(stack *stack){
     return 0;
 }
 
-//push
 void push(stack *stack,int data){
     if(isFull(stack)){
         printf("STACK OVERFLOW\n");

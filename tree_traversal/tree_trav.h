@@ -1,9 +1,9 @@
-#ifndef TREE_TRAVERSAL
-#define TREE_TRAVERSAL
-#include "../binary_tree/binary_tree.h"
-
-void inorderTraversal(node *root);
-void preorderTraversal(node *node);
-void postorderTraversal(node *node); // TO DO
+#ifndef TREE_TRAV
+#define TREE_TRAV
+#include "../binnary_tree/binnary.h"
+ 
+void inorderTraversal(TreeNode* root);
+void preorderTraversal(TreeNode* node);
+void postorderTraversal(TreeNode* node); 
 
 #endif
