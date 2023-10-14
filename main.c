@@ -98,11 +98,11 @@ int main()
                 printf("Not Balanced \n");
             break;
         }
-        
+
         case 5:
         {
             int treeCreated = 0;
-            TreeNode* root = NULL;
+            TreeNode *root = NULL;
             int data;
 
             do
@@ -153,26 +153,26 @@ int main()
                     break;
                 }
 
-            }while(option!=6);
+            } while (option != 6);
             break;
         }
 
-        case 6: {
-            
-                int graph[V][V] = {
-                    {0, 4, 0, 0, 0, 0, 0, 8, 0},
-                    {4, 0, 8, 0, 0, 0, 0, 11, 0},
-                    {0, 8, 0, 7, 0, 4, 0, 0, 2},
-                    {0, 0, 7, 0, 9, 14, 0, 0, 0},
-                    {0, 0, 0, 9, 0, 10, 0, 0, 0},
-                    {0, 0, 4, 0, 10, 0, 2, 0, 0},
-                    {0, 0, 0, 14, 0, 2, 0, 1, 6},
-                    {8, 11, 0, 0, 0, 0, 1, 0, 7},
-                    {0, 0, 2, 0, 0, 0, 6, 7, 0}
-                };
-                printf("Running Dijkstra's Algorithm...\n");
-                dijkstra(graph, 0);
-                break;
+        case 6:
+        {
+
+            int graph[V][V] = {
+                {0, 4, 0, 0, 0, 0, 0, 8, 0},
+                {4, 0, 8, 0, 0, 0, 0, 11, 0},
+                {0, 8, 0, 7, 0, 4, 0, 0, 2},
+                {0, 0, 7, 0, 9, 14, 0, 0, 0},
+                {0, 0, 0, 9, 0, 10, 0, 0, 0},
+                {0, 0, 4, 0, 10, 0, 2, 0, 0},
+                {0, 0, 0, 14, 0, 2, 0, 1, 6},
+                {8, 11, 0, 0, 0, 0, 1, 0, 7},
+                {0, 0, 2, 0, 0, 0, 6, 7, 0}};
+            printf("Running Dijkstra's Algorithm...\n");
+            dijkstra(graph, 0);
+            break;
         }
 
         default:
